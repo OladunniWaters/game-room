@@ -32,6 +32,7 @@ export const SEO = ({
   return (
     <Head>
       <title>{title}</title>
+      <meta name="google-site-verification" content="W7gSR1_8NK4yT9ByLEWGkzKk2ujxEChvc1JorUg9ulQ" />
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
@@ -39,12 +40,12 @@ export const SEO = ({
       <meta name="robots" content="follow, index" />
 
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@JeffreySunny1" />
+      <meta name="twitter:site" content="@OladunniCath" />
       <meta name="twitter:image" content={image} />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
 
-      <meta property="og:site_name" content="Jeffrey's Blog" />
+      <meta property="og:site_name" content="Game room Blog" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:url" content={url} />

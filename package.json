@@ -5,11 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "graphql": "^16.6.0",
+    "graphql-request": "^6.1.0",
     "next": "13.4.4",
+    "next-mdx-remote": "^4.4.1",
+    "next-sitemap": "^4.1.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   }
